@@ -137,7 +137,10 @@ static void lcd_gpio_init(void) {
     GPIO_InitStruct.Pull = GPIO_PULLDOWN;
     HAL_GPIO_Init(LCD_47_BLK_GPIO, &GPIO_InitStruct);
 //    HAL_Delay(2000);
-    HAL_GPIO_WritePin(LCD_47_BLK_GPIO, LCD_47_BLK_PIN, GPIO_PIN_RESET);
+//    FPC屏幕背光设置
+//    HAL_GPIO_WritePin(LCD_47_BLK_GPIO, LCD_47_BLK_PIN, GPIO_PIN_RESET);
+//    模块背光设置
+    HAL_GPIO_WritePin(LCD_47_BLK_GPIO, LCD_47_BLK_PIN, GPIO_PIN_SET);
 
 
 //    HAL_GPIO_WritePin(LCD_47_RES_GPIO, LCD_47_RES_PIN | LCD_47_DC_PIN | LCD_47_CS1_PIN, GPIO_PIN_SET);

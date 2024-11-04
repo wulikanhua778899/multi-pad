@@ -3,9 +3,18 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+  </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -16,30 +25,32 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug-GNU Arm" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="GNU Arm" GENERATION_OPTIONS="-G Ninja" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="284c5e99-336b-4d47-8966-ba45c3e1ae74" name="Changes" comment="EFFECTS_TWO_DONE">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/leden.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/leden.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists_template.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HARDWARE/LCD/LCD_47/lcd_47.c" beforeDir="false" afterPath="$PROJECT_DIR$/HARDWARE/LCD/LCD_47/lcd_47.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HARDWARE/LCD/LCD_47/lcd_47.h" beforeDir="false" afterPath="$PROJECT_DIR$/HARDWARE/LCD/LCD_47/lcd_47.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/query/client-vscode/query.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/cmake.check_cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-43657b5fbc7310d74920.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-b64600f96f434173f8c3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-4c4acc26cc97379e80ec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-badc672f9a92e530fc44.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-1986672f20fd844b5edf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-fc52560dea74e795e557.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-08-25T07-12-24-0822.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-leden.elf-Debug-4637a0faae8eb2239062.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-10-02T09-46-30-0763.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-leden.elf-Debug-0f2568a84a91e7ac65c7.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-3043531cea1add58ff64.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeASMCompiler.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" beforeDir="false" />
@@ -193,8 +204,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leden.elf.dir/progress.make" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/leden.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/leden.cbp" beforeDir="false" />
@@ -210,9 +219,15 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-GNU Arm" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Work/STM32/Project/multi-pad/HARDWARE/LCD/LCD_47/lcd_47.c" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Work/STM32/Project/multi-pad/HARDWARE/LCD/LCD_47/lcd_47.c" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Work/STM32/Project/multi-pad/HARDWARE/LCD/LCD_47/lcd_47.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Work/STM32/Project/multi-pad/HARDWARE/LCD/LCD_47/lcd_47.h" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -241,13 +256,13 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Users/Administrator/Desktop/keyPadF1/USB_DEVICE/App&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Work/STM32/Project/multi-pad&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CPPToolchains&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
     &quot;ts.external.directory.path&quot;: &quot;D:\\RA\\CLion\\CLion 2023.1.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -266,15 +281,15 @@
       <recent name="D:\Users\Administrator\Desktop\HARDWARE\ledent\HARDWARE" />
     </key>
   </component>
-  <component name="RunManager" selected="OpenOCD Download &amp; Run.leden">
-    <configuration name="leden.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leden" TARGET_NAME="leden.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leden" RUN_TARGET_NAME="leden.elf">
+  <component name="RunManager" selected="OpenOCD 下载并运行.leden">
+    <configuration name="leden.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leden" TARGET_NAME="leden.elf" CONFIG_NAME="Debug-GNU Arm" RUN_TARGET_PROJECT_NAME="leden" RUN_TARGET_NAME="leden.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.leden.elf" />
-      <item itemvalue="OpenOCD Download &amp; Run.leden" />
+      <item itemvalue="CMake 应用程序.leden.elf" />
+      <item itemvalue="OpenOCD 下载并运行.leden" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -371,6 +386,10 @@
       <workItem from="1727860249518" duration="1300000" />
       <workItem from="1727862291679" duration="2870000" />
       <workItem from="1727925497354" duration="220000" />
+      <workItem from="1729912766817" duration="2943000" />
+      <workItem from="1730628976061" duration="34000" />
+      <workItem from="1730630014368" duration="35000" />
+      <workItem from="1730630060512" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="ENCODER_MENU_EXECUTE">
       <option name="closed" value="true" />
@@ -488,11 +507,34 @@
     <isAutomaticReloadCMake value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="54" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="79" />
+                  <entry key="Table.GitHub.CommitStatus.ColumnIdWidth" value="65" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
